@@ -28,7 +28,8 @@
 	});
 
 	existingButton.addEventListener('click', () => {
-		if(storedUsername){
-			alert(`Logged in as ${storedUsername}`);
+		const savedUsername = localStorage.getItem('username');
+		if(savedUsername){
+			alert(`Logged in as ${savedUsername}`);
 		}
 	})
