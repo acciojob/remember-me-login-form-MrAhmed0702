@@ -9,7 +9,7 @@
 	const storedUsername = localStorage.getItem('username');
     const storedPassword = localStorage.getItem('password');
 
-	if(storedPassword && storedPassword){
+	if(storedUsername && storedPassword){
 		existingButton.style.display = 'block';
 	}
 
