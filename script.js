@@ -27,7 +27,7 @@
 		}
 	});
 
-	existingButton.addEvenListener('click', () => {
+	existingButton.addEventListener('click', () => {
 		if(storedUsername){
 			alert(`Logged in as ${storedUsername}`);
 		}
