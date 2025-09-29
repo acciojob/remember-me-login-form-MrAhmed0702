@@ -1,5 +1,4 @@
 //your JS code here. If required.
-document.addEventListener('DOMContentLoaded}', function() {
 	const loginForm = document.getElementById('loginForm');
     const submitButton = document.getElementById('submit');
     const existingButton = document.getElementById('existing');
@@ -33,4 +32,3 @@ document.addEventListener('DOMContentLoaded}', function() {
 			alert(`Logged in as ${storedUsername}`);
 		}
 	})
-});
